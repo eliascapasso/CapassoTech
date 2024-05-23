@@ -1508,3 +1508,7 @@ section {
     text-align: center;
   }
 }
+
+#shadow-host-companion{
+  padding: 0px 0;
+}
