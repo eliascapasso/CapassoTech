@@ -1,21 +1,4 @@
-<!-- ======= Header ======= -->
-<header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
-
-        <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="Capasso.Tech" class="img-fluid"></a>
-
-        <nav id="navbar" class="navbar">
-            <ul>
-                <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
-                <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
-                <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-                <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav><!-- .navbar -->
-
-    </div>
-</header><!-- End Header -->
+<app-top-bar></app-top-bar>
 
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center">
@@ -85,29 +68,7 @@
     <div class="container">
 
         <div class="text-center title">
-            <h3>Lo que hemos logrado hasta ahora</h3>
-        </div>
-
-        <div class="row counters position-relative">
-
-            <div class="col-lg-4 col-6 text-center">
-                <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1"
-                    class="purecounter"></span>
-                <p>Clientes</p>
-            </div>
-
-            <div class="col-lg-4 col-6 text-center">
-                <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1"
-                    class="purecounter"></span>
-                <p>Proyectos</p>
-            </div>
-
-            <div class="col-lg-4 col-6 text-center">
-                <span data-purecounter-start="0" data-purecounter-end="640" data-purecounter-duration="1"
-                    class="purecounter"></span>
-                <p>Horas trabajadas</p>
-            </div>
-
+            <h3>Quienes confiaron en nosotros</h3>
         </div>
 
     </div>
@@ -349,7 +310,7 @@
 
             <div class="col-lg-8 mt-5 mt-lg-0">
 
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <form action="https://formspree.io/f/xyyravgo" method="post" role="form" class="php-email-form">
                     <div class="row">
                         <div class="col-md-6 form-group">
                             <input type="text" name="name" class="form-control" id="name"
@@ -383,79 +344,4 @@
     </div>
 </section><!-- End Contact Section -->
 
-<!-- ======= Footer ======= -->
-<footer id="footer">
-
-    <div class="footer-newsletter">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <h4>Suscríbase a nuestro Newsletter</h4>
-                    <form action="" method="post">
-                        <input type="email" name="email"><input type="submit" value="Suscribirse">
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-3 col-md-6 footer-contact">
-                    <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="Capasso.Tech"
-                            class="img-fluid" style="width: 200px;"></a>
-                    <p>
-                        General Ramirez, Entre Ríos<br>
-                        Argentina <br><br>
-                        <strong>Teléfono:</strong> +54 3434 705 899<br>
-                        <strong>Email:</strong> elias_capasso<br>
-                    </p>
-                </div>
-
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Enlaces útiles</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i><a href="#hero">Inicio</a></li>
-                        <li><i class="bx bx-chevron-right"></i><a href="#services">Servicios</a></li>
-                        <li><i class="bx bx-chevron-right"></i><a href="#portfolio">Portfolio</a></li>
-                        <li><i class="bx bx-chevron-right"></i><a href="#contact">Contacto</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Nuestros servicios</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#services">Páginas web</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#services">Aplicaciones Móviles</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#services">Software a medida</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Redes sociales</h4>
-                    <div class="social-links mt-3">
-                        <a href="https://www.facebook.com/elias.capasso/" class="facebook"><i
-                                class="bx bxl-facebook"></i></a>
-                        <a href="https://www.instagram.com/eliascapasso/" class="instagram"><i
-                                class="bx bxl-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/elias-capasso/" class="linkedin"><i
-                                class="bx bxl-linkedin"></i></a>
-                        <a href="https://wa.link/cw09sb" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="container py-4">
-        <div class="copyright">
-            &copy; Copyright <strong><span>CapassoTech</span></strong>. Todos los derechos reservados
-        </div>
-        <div class="credits">
-            Desarrollado por <a href="https://capasso.tech/">CapassoTech</a>
-        </div>
-    </div>
-</footer><!-- End Footer -->
+<app-footer></app-footer>

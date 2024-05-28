@@ -1,27 +1,35 @@
-# CapassoTech
+# PASO 1 - NOMBRE DEL PROYECTO
+Buscar la palabra "REEMPLAZAR" en todo el proyecto y reemplazar por el nombre del nuevo proyecto
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
+# PASO 2 - INDEX
+- En index.html completar el contenido de head con lo necesario para ejecutar el nuevo proyecto. 
+ En index.html completar el contenido de body con los scripts. 
+- No olvidar app-root en el body.
 
-## Development server
+# PASO 3 - ASSETS
+- Copiar y reemplazar el contenido de la carpeta assets. 
+- Verificar que las rutas definidas en index.html sean correctas. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# PASO 4 - TOPBAR
+- Copiar contenido del body del nuevo proyecto al componente top-bar.
 
-## Code scaffolding
+# PASO 5 - FOOTER
+- Copiar contenido del body del nuevo proyecto al componente app-footer.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# PASO 6 - BODY
+- Copiar contenido del body del nuevo proyecto al componente app-home.
 
-## Build
+# PASO 7 - CONTACT
+- Copiar contenido del body del nuevo proyecto al componente app-contact.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# PASO 8 - ENVIO DE EMAIL
+- Crear un nuevo email si es necesario
+- Crear un formulario en https://formspree.io/
+- Implementar formulario de contacto en app-contact
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# PASO 9 - DEPLOY
+- ng build del proyecto
+- firebase init
+- usar la ruta dist/nombre-del-proyecto
+- Marcar todo que NO
+- firebase deploy
