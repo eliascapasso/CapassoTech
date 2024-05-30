@@ -8,11 +8,6 @@
     ],
     "redirects": [
       {
-        "source": "/",
-        "destination": "https://capasso.tech",
-        "type": 301
-      },
-      {
         "source": "http://www.capasso.tech",
         "destination": "https://capasso.tech",
         "type": 301
