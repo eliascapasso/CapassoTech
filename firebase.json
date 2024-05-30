@@ -1,5 +1,12 @@
 {
   "hosting": {
+    "redirects": [
+      {
+        "source": "www.capasso.tech",
+        "destination": "https://capasso.tech",
+        "type": 301
+      }
+    ],
     "public": "dist/capassotech",
     "ignore": [
       "firebase.json",
