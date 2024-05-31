@@ -1,27 +1,10 @@
 {
   "hosting": {
-    "public": "dist/capassotech",
+    "public": "dist/capassoTech/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "redirects": [
-      {
-        "source": "http://www.capasso.tech",
-        "destination": "https://capasso.tech",
-        "type": 301
-      },
-      {
-        "source": "http://capasso.tech",
-        "destination": "https://capasso.tech",
-        "type": 301
-      },
-      {
-        "source": "https://www.capasso.tech",
-        "destination": "https://capasso.tech",
-        "type": 301
-      }
     ],
     "rewrites": [
       {

@@ -17,7 +17,7 @@ import { BrowserModule } from '@angular/platform-browser';
     ],
     imports: [
         AppRoutingModule,
-        BrowserModule,
+        BrowserModule.withServerTransition({ appId: 'serverApp' }),
         CommonModule,
         FormsModule,
         HttpClientModule,
