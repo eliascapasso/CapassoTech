@@ -3,6 +3,7 @@ import { RouterModule } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { EjemplosComponent } from './components/ejemplos/ejemplos.component';
+import { WebPagesComponent } from './components/webpages/webpages.component';
 
 @NgModule({
     imports: [
@@ -17,6 +18,12 @@ import { EjemplosComponent } from './components/ejemplos/ejemplos.component';
         path: 'contacto', component: ContactComponent,
         children: [
             { path: '', loadChildren: () => import('./components/contact/contact.module').then(m => m.ContactModule) }
+        ]
+    },
+    {
+        path: 'paginas-web', component: WebPagesComponent,
+        children: [
+            { path: '', loadChildren: () => import('./components/webpages/webpages.module').then(m => m.WebPagesModule) }
         ]
     },
     {
