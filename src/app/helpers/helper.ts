@@ -4,3 +4,15 @@ export function generateUniqueId() {
 
     return `${timestamp}-${randomPart}`;
 }
+
+export function getLang(browserLang?: string) {
+    if (browserLang != undefined && browserLang.includes('es')) {
+        return 'es';
+    }
+    else if (browserLang != undefined && browserLang.includes('en')) {
+        return 'en';
+    }
+    else {
+        return 'en';
+    }
+}

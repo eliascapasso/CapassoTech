@@ -5,9 +5,11 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
-                    <h4>Suscríbase a nuestro Newsletter</h4>
+                    <h4>{{ 'footer.newsletter.title' | translate }}</h4>
                     <form action="https://formspree.io/f/xyyravgo" method="post">
-                        <input type="email" name="email"><input type="submit" value="Suscribirse">
+                        <input type="email" name="email"
+                            placeholder="{{ 'footer.newsletter.emailPlaceholder' | translate }}">
+                        <input type="submit" value="{{ 'footer.newsletter.subscribeButton' | translate }}">
                     </form>
                 </div>
             </div>
@@ -19,37 +21,48 @@
             <div class="row">
 
                 <div class="col-lg-3 col-md-6 footer-contact">
-                    <a href="https://capasso.tech" class="logo"><img src="assets/img/logo.png" alt="Capasso Tech"
-                            class="img-fluid" style="width: 200px;"></a>
+                    <a href="https://capasso.tech" class="logo">
+                        <img src="assets/img/logo.png" alt="{{ 'footer.logo.altText' | translate }}" class="img-fluid"
+                            style="width: 200px;">
+                    </a>
                     <p>
-                        General Ramirez, Entre Ríos<br>
-                        Argentina <br><br>
-                        <strong>Teléfono:</strong> +54 3435 332 132<br>
-                        <strong>Email:</strong> contacto@capasso.tech<br>
+                        {{ 'footer.address.line1' | translate }}<br>
+                        {{ 'footer.address.line2' | translate }}<br><br>
+                        <strong>{{ 'footer.phoneLabel' | translate }}</strong> {{ 'footer.phoneNumber' | translate
+                        }}<br>
+                        <strong>{{ 'footer.emailLabel' | translate }}</strong> {{ 'footer.emailAddress' | translate
+                        }}<br>
                     </p>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Enlaces útiles</h4>
+                    <h4>{{ 'footer.usefulLinks.title' | translate }}</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i><a href="#home">Inicio</a></li>
-                        <li><i class="bx bx-chevron-right"></i><a href="#servicios">Servicios</a></li>
-                        <li><i class="bx bx-chevron-right"></i><a href="#portfolio">Portfolio</a></li>
-                        <li><i class="bx bx-chevron-right"></i><a href="#contacto">Contacto</a></li>
+                        <li><i class="bx bx-chevron-right"></i><a href="#home">{{ 'footer.usefulLinks.home' | translate
+                                }}</a></li>
+                        <li><i class="bx bx-chevron-right"></i><a href="#services">{{ 'footer.usefulLinks.services' |
+                                translate }}</a></li>
+                        <li><i class="bx bx-chevron-right"></i><a href="#portfolio">{{ 'footer.usefulLinks.portfolio' |
+                                translate }}</a></li>
+                        <li><i class="bx bx-chevron-right"></i><a href="#contact">{{ 'footer.usefulLinks.contact' |
+                                translate }}</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Nuestros servicios</h4>
+                    <h4>{{ 'footer.ourServices.title' | translate }}</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="/paginas-web">Páginas web</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#servicios">Aplicaciones Móviles</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#servicios">Software a medida</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="/web-pages">{{ 'footer.ourServices.webPages'
+                                | translate }}</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#services">{{ 'footer.ourServices.mobileApps'
+                                | translate }}</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#services">{{
+                                'footer.ourServices.customSoftware' | translate }}</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Redes sociales</h4>
+                    <h4>{{ 'footer.socialMedia.title' | translate }}</h4>
                     <div class="social-links mt-3">
                         <a href="https://www.facebook.com/capasso.tech" class="facebook" target="_blank"><i
                                 class="bx bxl-facebook"></i></a>
@@ -70,10 +83,12 @@
 
     <div class="container py-4">
         <div class="copyright">
-            &copy; Copyright <strong><span>CapassoTech</span></strong>. Todos los derechos reservados
+            &copy; {{ 'footer.copyright.year' | translate }} <strong><span>{{ 'footer.copyright.company' | translate
+                    }}</span></strong>. {{ 'footer.copyright.allRightsReserved' | translate }}
         </div>
         <div class="credits">
-            Desarrollado por <a href="https://capasso.tech/">CapassoTech</a>
+            {{ 'footer.credits.developedBy' | translate }} <a href="https://capasso.tech/">{{ 'footer.credits.company' |
+                translate }}</a>
         </div>
     </div>
 </footer><!-- End Footer -->

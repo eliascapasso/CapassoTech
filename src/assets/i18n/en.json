@@ -1,0 +1,202 @@
+{
+    "hero": {
+        "title": "Get tailored software solutions",
+        "subtitle": "At Capasso Tech, we develop custom software solutions for entrepreneurs and companies. We create websites, virtual stores, mobile applications, and custom software tailored to your specific needs. Contact us today to discover how we can boost your business.",
+        "button": "Get started now"
+    },
+    "servicesSection": {
+        "title": "Services",
+        "services": [
+            {
+                "title": "Web Pages",
+                "description": "Discover how we can help you have an effective and professional online presence."
+            },
+            {
+                "title": "Mobile Applications",
+                "description": "We develop the perfect app for your business, with efficient solutions tailored to your business and technological needs."
+            },
+            {
+                "title": "Custom Solutions",
+                "description": "Looking to optimize processes in your business? Want to increase its efficiency? We offer custom digital solutions to meet your goals."
+            }
+        ]
+    },
+    "countsSection": {
+        "title": "Who trusted us"
+    },
+    "portfolioSection": {
+        "title": "Portfolio",
+        "filters": {
+            "all": "All",
+            "web": "Web",
+            "app": "App"
+        },
+        "projects": [
+            {
+                "title": "CleanSched",
+                "type": "Web"
+            },
+            {
+                "title": "Aberturas 9 de Julio",
+                "type": "Web"
+            },
+            {
+                "title": "CarWash at Home Service",
+                "type": "Web"
+            },
+            {
+                "title": "Expense Management",
+                "type": "App"
+            }
+        ]
+    },
+    "gallerySection": {
+        "title": "Gallery"
+    },
+    "contactSection": {
+        "title": "Contact",
+        "location": "General Ramirez, Entre Ríos, Argentina",
+        "email": "contacto@capasso.tech",
+        "phone": "+54 3435 332 132",
+        "form": {
+            "name": "Your full name",
+            "email": "Your email address",
+            "subject": "Subject",
+            "message": "Message",
+            "loading": "Loading",
+            "error": "An error has occurred.",
+            "success": "Your message has been sent. Thank you!",
+            "submit": "Send Message"
+        }
+    },
+    "footer": {
+        "newsletter": {
+            "title": "Subscribe to our Newsletter",
+            "emailPlaceholder": "Enter your email",
+            "subscribeButton": "Subscribe"
+        },
+        "logo": {
+            "altText": "Capasso Tech"
+        },
+        "address": {
+            "line1": "General Ramirez, Entre Ríos",
+            "line2": "Argentina"
+        },
+        "phoneLabel": "Phone:",
+        "phoneNumber": "+54 3435 332 132",
+        "emailLabel": "Email:",
+        "emailAddress": "contacto@capasso.tech",
+        "usefulLinks": {
+            "title": "Useful Links",
+            "home": "Home",
+            "services": "Services",
+            "portfolio": "Portfolio",
+            "contact": "Contact"
+        },
+        "ourServices": {
+            "title": "Our Services",
+            "webPages": "Web Pages",
+            "mobileApps": "Mobile Apps",
+            "customSoftware": "Custom Software"
+        },
+        "socialMedia": {
+            "title": "Social Media"
+        },
+        "copyright": {
+            "year": "Copyright",
+            "company": "CapassoTech",
+            "allRightsReserved": "All rights reserved"
+        },
+        "credits": {
+            "developedBy": "Developed by",
+            "company": "CapassoTech"
+        }
+    },
+    "header": {
+        "logo": {
+            "altText": "Capasso Tech"
+        },
+        "nav": {
+            "home": "Home",
+            "services": {
+                "title": "Services",
+                "webPages": {
+                    "title": "Web Pages",
+                    "landingPage": "Landing Page",
+                    "growth": "Growth",
+                    "professional": "Professional",
+                    "customized": "Customized",
+                    "examples": "Examples"
+                },
+                "mobileApps": "Mobile Apps",
+                "customSoftware": "Custom Software"
+            },
+            "portfolio": "Portfolio",
+            "contact": "Contact"
+        }
+    },
+    "webDevelopmentPlans": {
+        "title": "Web Development Plans",
+        "description": "At Capasso Tech, we offer a variety of web development plans tailored to meet the different needs of our clients. From a simple online presence to fully customized solutions, our plans are designed to ensure that your website is effective, attractive, and functional.",
+        "note": "**Hosting and domain costs are not included.",
+        "landingPage": {
+            "title": "Landing Page",
+            "description": "For those looking for a simple yet effective online presence, our 'Landing Page' plan offers a custom design that adapts to mobile devices. With a development time of approximately 15 days, this plan includes a contact form, social media links, and optimization for Google.",
+            "altText": "landing page",
+            "features": {
+                "mobileDesign": "Custom design adaptable to mobile devices",
+                "contactForm": "Contact form",
+                "googleOptimization": "Google optimization"
+            }
+        },
+        "growth": {
+            "title": "Growth",
+            "description": "If you're looking to expand your online presence, our 'Growth' plan is ideal for you. This plan includes everything you need to stand out. With Google Maps integration, this plan allows for up to 8 internal pages and is designed to be mobile-friendly. Additionally, we offer Google optimization and a WhatsApp button for greater interaction with your clients.",
+            "altText": "growth plan",
+            "features": {
+                "pages": "Up to 8 internal pages",
+                "googleMaps": "Google Maps integration",
+                "whatsappButton": "Floating WhatsApp button"
+            }
+        },
+        "professional": {
+            "title": "Professional",
+            "description": "For those looking to take their online presence to the next level, our 'Professional' plan is the perfect choice. This plan offers a fully custom design adaptable to mobile devices. In addition to a self-managed blog and all the features included in the previous plans, this plan ensures that your website stands out from the crowd. We also offer performance and security optimization to ensure your website runs optimally and is protected against online threats.",
+            "altText": "professional plan",
+            "features": {
+                "blog": "Self-managed blog",
+                "pages": "Up to 10 internal pages",
+                "performanceSecurity": "Performance and security optimization"
+            }
+        },
+        "customized": {
+            "title": "Customized",
+            "description": "If none of the previous plans fully meet your needs, we offer completely customized web development services. We will work with you to understand your specific requirements and create a tailored solution that meets your goals and expectations. Contact us for more details and a personalized quote.",
+            "altText": "customized plan",
+            "requestQuote": "Request a quote"
+        }
+    },
+    "portfolio": {
+        "title": "Webpage Examples",
+        "description": "Here you will find some of the templates we use to create the perfect website for your business. These are just examples, and if you don't see something that fits your tastes, don't worry, we adapt to your needs.",
+        "viewDemo": "View Demo",
+        "example1": {
+            "alt": "Dazzle example"
+        },
+        "example2": {
+            "alt": "Butterfly example"
+        },
+        "example3": {
+            "alt": "E-commerce example"
+        },
+        "example4": {
+            "alt": "Dev Space example"
+        },
+        "example5": {
+            "alt": "Knight example"
+        },
+        "example6": {
+            "alt": "Simple example"
+        }
+    }
+}

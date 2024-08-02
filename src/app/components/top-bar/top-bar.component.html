@@ -2,30 +2,32 @@
 <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-        <a href="https://capasso.tech" class="logo"><img src="assets/img/logo.png" alt="Capasso Tech"
-                class="img-fluid"></a>
+        <a href="https://capasso.tech" class="logo">
+            <img src="assets/img/logo.png" alt="{{ 'header.logo.altText' | translate }}" class="img-fluid">
+        </a>
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto active" href="https://capasso.tech">Inicio</a></li>
-                <li class="dropdown"><a href="#servicios"><span>Servicios</span> <i class="bi bi-chevron-down"></i></a>
+                <li><a class="nav-link scrollto active" href="https://capasso.tech">{{ 'header.nav.home' | translate }}</a></li>
+                <li class="dropdown">
+                    <a href="#services">{{ 'header.nav.services.title' | translate }} <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li class="dropdown"><a href="/paginas-web"><span>Paginas Web</span> <i
-                                    class="bi bi-chevron-right"></i></a>
+                        <li class="dropdown">
+                            <a href="/web-pages">{{ 'header.nav.services.webPages.title' | translate }} <i class="bi bi-chevron-right"></i></a>
                             <ul>
-                                <li><a href="/paginas-web#landing">Landing Page</a></li>
-                                <li><a href="/paginas-web#crecimiento">Crecimiento</a></li>
-                                <li><a href="/paginas-web#profesional">Profesional</a></li>
-                                <li><a href="/paginas-web#personalizado">Personalizado</a></li>
-                                <li><a href="/ejemplos">Ejemplos</a></li>
+                                <li><a href="/web-pages#landing">{{ 'header.nav.services.webPages.landingPage' | translate }}</a></li>
+                                <li><a href="/web-pages#growth">{{ 'header.nav.services.webPages.growth' | translate }}</a></li>
+                                <li><a href="/web-pages#professional">{{ 'header.nav.services.webPages.professional' | translate }}</a></li>
+                                <li><a href="/web-pages#customized">{{ 'header.nav.services.webPages.customized' | translate }}</a></li>
+                                <li><a href="/examples">{{ 'header.nav.services.webPages.examples' | translate }}</a></li>
                             </ul>
                         </li>
-                        <li><a href="#servicios">Aplicaciones Móviles</a></li>
-                        <li><a href="#servicios">Software a medida</a></li>
+                        <li><a href="#services">{{ 'header.nav.services.mobileApps' | translate }}</a></li>
+                        <li><a href="#services">{{ 'header.nav.services.customSoftware' | translate }}</a></li>
                     </ul>
                 </li>
-                <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-                <li><a class="nav-link scrollto" href="/contacto">Contacto</a></li>
+                <li><a class="nav-link scrollto" href="#portfolio">{{ 'header.nav.portfolio' | translate }}</a></li>
+                <li><a class="nav-link scrollto" href="/contact">{{ 'header.nav.contact' | translate }}</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->

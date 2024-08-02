@@ -4,13 +4,15 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { TopBarModule } from '../top-bar/top-bar.module';
 import { FooterModule } from '../footer/footer.module';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
     imports: [
         CommonModule,
         HomeRoutingModule,
         TopBarModule,
-        FooterModule
+        FooterModule,
+        TranslateModule
     ],
     declarations: [HomeComponent],
     exports: [HomeComponent]

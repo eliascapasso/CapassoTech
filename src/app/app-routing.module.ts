@@ -15,19 +15,19 @@ import { WebPagesComponent } from './components/webpages/webpages.component';
         ]
     },
     {
-        path: 'contacto', component: ContactComponent,
+        path: 'contact', component: ContactComponent,
         children: [
             { path: '', loadChildren: () => import('./components/contact/contact.module').then(m => m.ContactModule) }
         ]
     },
     {
-        path: 'paginas-web', component: WebPagesComponent,
+        path: 'web-pages', component: WebPagesComponent,
         children: [
             { path: '', loadChildren: () => import('./components/webpages/webpages.module').then(m => m.WebPagesModule) }
         ]
     },
     {
-        path: 'ejemplos', component: EjemplosComponent,
+        path: 'examples', component: EjemplosComponent,
         children: [
             { path: '', loadChildren: () => import('./components/ejemplos/ejemplos.module').then(m => m.EjemplosModule) }
         ]

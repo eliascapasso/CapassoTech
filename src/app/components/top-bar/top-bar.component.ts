@@ -1,4 +1,6 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+import { getLang } from 'src/app/helpers/helper';
 
 @Component({
   selector: 'app-top-bar',
@@ -7,7 +9,10 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 })
 export class TopBarComponent implements OnInit, AfterViewInit {
 
-  constructor() { }
+  constructor(private translate: TranslateService) {
+    translate.setDefaultLang(getLang(translate.getBrowserLang()!));
+    translate.use(getLang(translate.getBrowserLang()));
+  }
 
   ngOnInit(): void {
     // Aquí puedes colocar cualquier lógica que necesite ejecutarse al inicializar el componente

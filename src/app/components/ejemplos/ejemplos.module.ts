@@ -4,13 +4,15 @@ import { EjemplosComponent } from './ejemplos.component';
 import { EjemplosRoutingModule } from './ejemplos-routing.module';
 import { FooterModule } from '../footer/footer.module';
 import { TopBarModule } from '../top-bar/top-bar.module';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
     imports: [
         CommonModule,
         EjemplosRoutingModule,
         TopBarModule,
-        FooterModule
+        FooterModule,
+        TranslateModule
     ],
     declarations: [EjemplosComponent],
     exports: [EjemplosComponent]

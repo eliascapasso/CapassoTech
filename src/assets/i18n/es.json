@@ -1,0 +1,202 @@
+{
+    "hero": {
+        "title": "Obtenga soluciones de software a SU MEDIDA",
+        "subtitle": "En Capasso Tech, desarrollamos soluciones de software a medida para emprendedores y empresas. Creamos sitios web, tiendas virtuales, aplicaciones móviles y software personalizado adaptado a tus necesidades específicas. Contáctanos hoy para descubrir cómo podemos impulsar tu negocio.",
+        "button": "Empieze ahora"
+    },
+    "servicesSection": {
+        "title": "Servicios",
+        "services": [
+            {
+                "title": "Páginas Web",
+                "description": "Descubre cómo podemos ayudarte a tener una presencia en línea efectiva y profesional."
+            },
+            {
+                "title": "Aplicaciones Móviles",
+                "description": "Desarrollamos la app perfecta para tu negocio, con soluciones eficientes y adaptadas a tus necesidades empresariales y tecnológicas."
+            },
+            {
+                "title": "Soluciones a tu medida",
+                "description": "¿Buscas optimizar procesos en tu negocio? ¿Quieres aumentar su eficiencia? Nosotros te ofrecemos soluciones digitales a medida para cumplir con tus objetivos."
+            }
+        ]
+    },
+    "countsSection": {
+        "title": "Quienes confiaron en nosotros"
+    },
+    "portfolioSection": {
+        "title": "Portfolio",
+        "filters": {
+            "all": "Todos",
+            "web": "Web",
+            "app": "App"
+        },
+        "projects": [
+            {
+                "title": "CleanSched",
+                "type": "Web"
+            },
+            {
+                "title": "Aberturas 9 de Julio",
+                "type": "Web"
+            },
+            {
+                "title": "CarWash at Home Service",
+                "type": "Web"
+            },
+            {
+                "title": "Gestión de Viáticos",
+                "type": "App"
+            }
+        ]
+    },
+    "gallerySection": {
+        "title": "Galería"
+    },
+    "contactSection": {
+        "title": "Contacto",
+        "location": "General Ramirez, Entre Ríos, Argentina",
+        "email": "contacto@capasso.tech",
+        "phone": "+54 3435 332 132",
+        "form": {
+            "name": "Su nombre completo",
+            "email": "Su correo electrónico",
+            "subject": "Asunto",
+            "message": "Mensaje",
+            "loading": "Cargando",
+            "error": "Ha ocurrido un error.",
+            "success": "Su mensaje hay sido enviado ¡Gracias!",
+            "submit": "Enviar Mensaje"
+        }
+    },
+    "footer": {
+        "newsletter": {
+            "title": "Suscríbase a nuestro Newsletter",
+            "emailPlaceholder": "Ingrese su correo electrónico",
+            "subscribeButton": "Suscribirse"
+        },
+        "logo": {
+            "altText": "Capasso Tech"
+        },
+        "address": {
+            "line1": "General Ramirez, Entre Ríos",
+            "line2": "Argentina"
+        },
+        "phoneLabel": "Teléfono:",
+        "phoneNumber": "+54 3435 332 132",
+        "emailLabel": "Email:",
+        "emailAddress": "contacto@capasso.tech",
+        "usefulLinks": {
+            "title": "Enlaces útiles",
+            "home": "Inicio",
+            "services": "Servicios",
+            "portfolio": "Portfolio",
+            "contact": "Contacto"
+        },
+        "ourServices": {
+            "title": "Nuestros servicios",
+            "webPages": "Páginas web",
+            "mobileApps": "Aplicaciones Móviles",
+            "customSoftware": "Software a medida"
+        },
+        "socialMedia": {
+            "title": "Redes sociales"
+        },
+        "copyright": {
+            "year": "Copyright",
+            "company": "CapassoTech",
+            "allRightsReserved": "Todos los derechos reservados"
+        },
+        "credits": {
+            "developedBy": "Desarrollado por",
+            "company": "CapassoTech"
+        }
+    },
+    "header": {
+        "logo": {
+            "altText": "Capasso Tech"
+        },
+        "nav": {
+            "home": "Inicio",
+            "services": {
+                "title": "Servicios",
+                "webPages": {
+                    "title": "Páginas Web",
+                    "landingPage": "Landing Page",
+                    "growth": "Crecimiento",
+                    "professional": "Profesional",
+                    "customized": "Personalizado",
+                    "examples": "Ejemplos"
+                },
+                "mobileApps": "Aplicaciones Móviles",
+                "customSoftware": "Software a medida"
+            },
+            "portfolio": "Portfolio",
+            "contact": "Contacto"
+        }
+    },
+    "webDevelopmentPlans": {
+        "title": "Planes de Desarrollo de Páginas Web",
+        "description": "En Capasso Tech, ofrecemos una variedad de planes de desarrollo web adaptados a las diferentes necesidades de nuestros clientes. Desde una presencia en línea simple hasta soluciones completamente personalizadas, nuestros planes están diseñados para asegurar que tu sitio web sea efectivo, atractivo y funcional.",
+        "note": "**No incluye costos de hosting y dominio.",
+        "landingPage": {
+            "title": "Landing Page",
+            "description": "Para aquellos que buscan una presencia en línea simple pero efectiva, nuestro plan 'Landing Page' ofrece un diseño personalizado adaptable a dispositivos móviles. Con un tiempo de desarrollo de aproximadamente 15 días, este plan incluye un formulario de contacto, enlaces a redes sociales y optimización para Google.",
+            "altText": "landing page",
+            "features": {
+                "mobileDesign": "Diseño personalizado adaptable a dispositivos móviles",
+                "contactForm": "Formulario de contacto",
+                "googleOptimization": "Optimización para Google"
+            }
+        },
+        "growth": {
+            "title": "Crecimiento",
+            "description": "Si estás buscando expandir tu presencia en línea, nuestro plan 'Crecimiento' es ideal para ti. Este plan incluye todo lo que necesitas para destacarte. Con una integración de Google Maps, este plan te permite tener hasta 8 páginas internas y está diseñado para adaptarse a dispositivos móviles. Además, ofrecemos optimización para Google y un botón de WhatsApp para una mayor interacción con tus clientes.",
+            "altText": "growth plan",
+            "features": {
+                "pages": "Hasta 8 páginas internas",
+                "googleMaps": "Integración de Google Maps",
+                "whatsappButton": "Botón flotante de WhatsApp"
+            }
+        },
+        "professional": {
+            "title": "Profesional",
+            "description": "Para aquellos que buscan llevar su presencia en línea al siguiente nivel, nuestro plan 'Profesional' es la opción perfecta. Este plan ofrece un diseño completamente personalizado y adaptable a dispositivos móviles. Además del blog autoadministrable y todas las características incluidas en los planes anteriores, este plan garantiza que tu sitio web se destaque entre la multitud. Además, ofrecemos optimización de rendimiento y seguridad para asegurar que tu sitio web funcione de manera óptima y esté protegido contra amenazas en línea.",
+            "altText": "professional plan",
+            "features": {
+                "blog": "Blog autoadministrable",
+                "pages": "Hasta 10 páginas internas",
+                "performanceSecurity": "Optimización de rendimiento y seguridad"
+            }
+        },
+        "customized": {
+            "title": "Personalizado",
+            "description": "Si ninguno de los planes anteriores se adapta completamente a tus necesidades, ofrecemos servicios de desarrollo web completamente personalizados. Trabajaremos contigo para entender tus requerimientos específicos y crear una solución a medida que cumpla con tus objetivos y expectativas. Contáctanos para más detalles y una cotización personalizada.",
+            "altText": "customized plan",
+            "requestQuote": "Pedir presupuesto"
+        }
+    },
+    "portfolio": {
+        "title": "Ejemplos de páginas webs",
+        "description": "Aquí encontrarás algunas de las plantillas que usamos para crear la página web perfecta para tu negocio. Estos son solo ejemplos, y si no ves algo que se ajuste a tus gustos, no te preocupes, nos adaptamos a tus necesidades.",
+        "viewDemo": "Ver demostración",
+        "example1": {
+            "alt": "Ejemplo Dazzle"
+        },
+        "example2": {
+            "alt": "Ejemplo Butterfly"
+        },
+        "example3": {
+            "alt": "Ejemplo E-commerce"
+        },
+        "example4": {
+            "alt": "Ejemplo Dev Space"
+        },
+        "example5": {
+            "alt": "Ejemplo Knight"
+        },
+        "example6": {
+            "alt": "Ejemplo Simple"
+        }
+    }
+}

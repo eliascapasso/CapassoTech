@@ -2,137 +2,112 @@
 
 <!-- ======= Hero Section ======= -->
 <section id="home" class="d-flex align-items-center">
-
     <div class="container">
         <div class="row">
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                <h1>Obtenga soluciones de software a SU MEDIDA</h1>
-                <h2>En Capasso Tech, desarrollamos soluciones de software a medida para emprendedores y empresas.
-                    Creamos sitios web, tiendas virtuales, aplicaciones móviles y software personalizado adaptado a tus
-                    necesidades específicas. Contáctanos hoy para descubrir cómo podemos impulsar tu negocio.</h2>
-                <div><a href="#contacto" class="btn-get-started scrollto">Empieze ahora</a></div>
+                <h1>{{ 'hero.title' | translate }}</h1>
+                <h2>{{ 'hero.subtitle' | translate }}</h2>
+                <div><a href="#contact" class="btn-get-started scrollto">{{ 'hero.button' | translate }}</a></div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img">
                 <img src="assets/img/At the office-amico.png" class="img-fluid" alt="">
             </div>
         </div>
     </div>
-
 </section><!-- End Hero -->
 
 <!-- ======= Services Section ======= -->
-<section id="servicios" class="services section-bg">
+<section id="services" class="services section-bg">
     <div class="container">
-
         <div class="section-title">
-            <h1>Servicios</h1>
+            <h1>{{ 'servicesSection.title' | translate }}</h1>
         </div>
 
         <div class="row">
-            <a class="col-lg-4 col-md-6" href="/paginas-web">
+            <a class="col-lg-4 col-md-6" href="/web-pages">
                 <div class="icon-box">
                     <div class="icon"><i class="bi bi-browser-chrome" style="color: #ff689b;"></i></div>
-                    <h2 class="title">Páginas Web</h2>
-                    <p class="description">Descubre cómo podemos ayudarte a tener una presencia en línea efectiva y profesional.</p>
+                    <h2 class="title">{{ 'servicesSection.services.0.title' | translate }}</h2>
+                    <p class="description">{{ 'servicesSection.services.0.description' | translate }}</p>
                 </div>
             </a>
             <div class="col-lg-4 col-md-6">
                 <div class="icon-box">
                     <div class="icon"><i class="bi bi-phone" style="color: #e9bf06;"></i></div>
-                    <h2 class="title"><a href="">Aplicaciones Móviles</a></h2>
-                    <p class="description">Desarrollamos la app perfecta para tu negocio, con soluciones eficientes
-                        y
-                        adaptadas a tus necesidades empresariales y tecnológicas.</p>
+                    <h2 class="title"><a href="">{{ 'servicesSection.services.1.title' | translate }}</a></h2>
+                    <p class="description">{{ 'servicesSection.services.1.description' | translate }}</p>
                 </div>
             </div>
-
             <div class="col-lg-4 col-md-6" data-wow-delay="0.1s">
                 <div class="icon-box">
                     <div class="icon"><i class="bi bi-rulers" style="color: #3fcdc7;"></i></div>
-                    <h2 class="title"><a href="">Soluciones a tu medida</a></h2>
-                    <p class="description">¿Buscas optimizar procesos en tu negocio? ¿Quieres aumentar su
-                        eficiencia? Nosotros
-                        te ofrecemos soluciones digitales a medida para cumplir con tus objetivos.
-                    </p>
+                    <h2 class="title"><a href="">{{ 'servicesSection.services.2.title' | translate }}</a></h2>
+                    <p class="description">{{ 'servicesSection.services.2.description' | translate }}</p>
                 </div>
             </div>
         </div>
-
     </div>
 </section><!-- End Services Section -->
 
 <!-- ======= Counts Section ======= -->
 <section id="counts" class="counts">
     <div class="container">
-
         <div class="text-center title">
-            <h1>Quienes confiaron en nosotros</h1>
+            <h1>{{ 'countsSection.title' | translate }}</h1>
         </div>
-
     </div>
 </section><!-- End Counts Section -->
 
 <!-- ======= Clients Section ======= -->
 <section id="clients" class="clients">
     <div class="container">
-
         <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
-
             <div class="col-lg-3 col-md-4 col-6">
                 <div class="client-logo">
                     <img src="assets/img/clients/client-2.png" class="img-fluid" alt="" style="height: 80%;">
                 </div>
             </div>
-
             <div class="col-lg-3 col-md-4 col-6">
                 <div class="client-logo">
-                    <img src="assets/img/clients/client-1.png" class="img-fluid" alt="" alt="" style="height: 80%;">
+                    <img src="assets/img/clients/client-1.png" class="img-fluid" alt="" style="height: 80%;">
                 </div>
             </div>
-
             <div class="col-lg-3 col-md-4 col-6">
                 <div class="client-logo">
-                    <img src="assets/img/clients/client-3.png" class="img-fluid" alt="" alt="" style="height: 80%;">
+                    <img src="assets/img/clients/client-3.png" class="img-fluid" alt="" style="height: 80%;">
                 </div>
             </div>
-
             <div class="col-lg-3 col-md-4 col-6">
                 <div class="client-logo">
-                    <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" alt="" style="height: 50%;">
+                    <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" style="height: 50%;">
                 </div>
             </div>
-
         </div>
-
     </div>
 </section><!-- End Clients Section -->
 
 <!-- ======= Portfolio Section ======= -->
 <section id="portfolio" class="portfolio">
     <div class="container">
-
         <div class="section-title">
-            <h1>Portfolio</h1>
+            <h1>{{ 'portfolioSection.title' | translate }}</h1>
         </div>
-
         <div class="row">
             <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
-                    <li data-filter="*" class="filter-active">Todos</li>
-                    <li data-filter=".filter-web">Web</li>
-                    <li data-filter=".filter-app">App</li>
+                    <li data-filter="*" class="filter-active">{{ 'portfolioSection.filters.all' | translate }}</li>
+                    <li data-filter=".filter-web">{{ 'portfolioSection.filters.web' | translate }}</li>
+                    <li data-filter=".filter-app">{{ 'portfolioSection.filters.app' | translate }}</li>
                 </ul>
             </div>
         </div>
-
         <div class="row portfolio-container">
-
             <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                 <div class="portfolio-wrap">
                     <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>CleanSched</h4>
-                        <p>Web</p>
+                        <h4>{{ 'portfolioSection.projects.0.title' | translate }}</h4>
+                        <p>{{ 'portfolioSection.projects.0.type' | translate }}</p>
                         <div class="portfolio-links">
                             <a href="https://youtu.be/AP5il8V-W6w" target="_blank" data-gallery="portfolioGallery"
                                 class="portfolio-lightbox" title="Ver video"><i class="bx bx-video"></i></a>
@@ -142,13 +117,12 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                 <div class="portfolio-wrap">
                     <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>Aberturas 9 de Julio</h4>
-                        <p>Web</p>
+                        <h4>{{ 'portfolioSection.projects.1.title' | translate }}</h4>
+                        <p>{{ 'portfolioSection.projects.1.type' | translate }}</p>
                         <div class="portfolio-links">
                             <a href="https://www.youtube.com/watch?v=3jOJsFTJ-kU" target="_blank"
                                 data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ver video"><i
@@ -159,13 +133,12 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                 <div class="portfolio-wrap">
                     <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>CarWash at Home Service</h4>
-                        <p>Web</p>
+                        <h4>{{ 'portfolioSection.projects.2.title' | translate }}</h4>
+                        <p>{{ 'portfolioSection.projects.2.type' | translate }}</p>
                         <div class="portfolio-links">
                             <a href="https://www.youtube.com/watch?v=SR4JgytnFUI" target="_blank"
                                 data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ver video"><i
@@ -176,13 +149,12 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-3 col-md-6 portfolio-item filter-app">
                 <div class="portfolio-wrap">
                     <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>Gestión de Viáticos</h4>
-                        <p>App</p>
+                        <h4>{{ 'portfolioSection.projects.3.title' | translate }}</h4>
+                        <p>{{ 'portfolioSection.projects.3.type' | translate }}</p>
                         <div class="portfolio-links">
                             <a href="https://youtube.com/shorts/nFj8yDSFoAs?si=VuGiVTrYwe3UcTE1" target="_blank"
                                 title="Ver video"><i class="bx bx-video"></i></a>
@@ -190,158 +162,91 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
     </div>
 </section><!-- End Portfolio Section -->
-
-<!-- ======= Team Section ======= -->
-<!-- <section id="team" class="team section-bg">
-    <div class="container">
-
-        <div class="section-title">
-            <h1>Fundador y Desarrollador</h1>
-            <p>¡Hola! Soy Elias Capasso, fundador y desarrollador de Capasso Tech. Soy un apasionado por la
-                tecnología y
-                dedico todos mis esfuerzos a crear soluciones de software innovadoras.
-            </p>
-        </div>
-
-        <div class="row" style="justify-content: center;">
-
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-                <div class="member">
-                    <div class="member-img">
-                        <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="ing. capasso elias">
-                        <div class="social">
-                            <a href="https://www.facebook.com/elias.capasso" target="_blank"><i
-                                    class="bi bi-facebook"></i></a>
-                            <a href="https://www.instagram.com/eliascapasso/" target="_blank"><i
-                                    class="bi bi-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/elias-capasso/" target="_blank"><i
-                                    class="bi bi-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="member-info">
-                        <h4>Capasso Elias</h4>
-                        <span>Ingeniero en Sistemas de Información</span>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-</section> -->
-<!-- End Team Section -->
 
 <!-- ======= Gallery Section ======= -->
 <section id="gallery" class="gallery">
     <div class="container">
-
         <div class="section-title">
-            <h1>Galería</h1>
+            <h1>{{ 'gallerySection.title' | translate }}</h1>
         </div>
-
         <div class="row no-gutters">
-
             <div class="col-lg-6 col-md-6">
                 <div class="gallery-item">
-                    <a href="https://youtu.be/J1C2sJ1uruw?si=NfwZtAT4PkYQY8d3&t=138" target="_blank"
-                        class="galleery-lightbox" data-gallery="gallery-item">
-                        <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-6">
-                <div class="gallery-item">
-                    <a href="https://www.youtube.com/watch?v=NMZkDTE0FcY" target="_blank" class="galleery-lightbox"
-                        data-gallery="gallery-item">
+                    <a href="assets/img/gallery/gallery-1.jpg" class="galelry-lightbox">
                         <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
                     </a>
                 </div>
             </div>
-
+            <div class="col-lg-6 col-md-6">
+                <div class="gallery-item">
+                    <a href="assets/img/gallery/gallery-2.jpg" class="galelry-lightbox">
+                        <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+                    </a>
+                </div>
+            </div>
         </div>
-
     </div>
 </section><!-- End Gallery Section -->
 
 <!-- ======= Contact Section ======= -->
-<section id="contacto" class="contact">
+<section id="contact" class="contact section-bg">
     <div class="container">
-
         <div class="section-title">
-            <h1>Contacto</h1>
+            <h1>{{ 'contactSection.title' | translate }}</h1>
         </div>
-
-        <div>
-            <iframe style="border:0; width: 100%; height: 270px;"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.6704691456773!2d-60.205348!3d-32.1796496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6a025aee5a0e5%3A0x2e853d681050306a!2sDomingo+French+94%2C+Gral.+Ram%C3%ADrez%2C+Entre+R%C3%ADos!5e0!3m2!1ses!2sar!4v1684411228765!5m2!1ses!2sar"
-                frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <div class="row mt-5">
-
+        <div class="row">
             <div class="col-lg-4">
                 <div class="info">
                     <div class="address">
                         <i class="bi bi-geo-alt"></i>
-                        <h4>Ubicación:</h4>
+                        <h4>{{ 'contactSection.location' | translate }}</h4>
                         <p>General Ramirez, Entre Ríos, Argentina</p>
                     </div>
-
                     <div class="email">
                         <i class="bi bi-envelope"></i>
                         <h4>Email:</h4>
-                        <p>contacto@capasso.tech</p>
+                        <p>{{ 'contactSection.email' | translate }}</p>
                     </div>
-
                     <div class="phone">
                         <i class="bi bi-phone"></i>
                         <h4>Teléfono:</h4>
-                        <p>+54 3435 332 132</p>
+                        <p>{{ 'contactSection.phone' | translate }}</p>
                     </div>
-
                 </div>
-
             </div>
-
             <div class="col-lg-8 mt-5 mt-lg-0">
-
-                <form action="https://formspree.io/f/xyyravgo" method="post" role="form" class="php-email-form">
+                <form action="forms/contact.php" method="post" class="php-email-form">
                     <div class="row">
                         <div class="col-md-6 form-group">
                             <input type="text" name="name" class="form-control" id="name"
-                                placeholder="Su nombre completo" required>
+                                placeholder="{{ 'contactSection.form.name' | translate }}" required>
                         </div>
                         <div class="col-md-6 form-group mt-3 mt-md-0">
                             <input type="email" class="form-control" name="email" id="email"
-                                placeholder="Su correo electrónico" required>
+                                placeholder="{{ 'contactSection.form.email' | translate }}" required>
                         </div>
                     </div>
                     <div class="form-group mt-3">
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto"
-                            required>
+                        <input type="text" class="form-control" name="subject" id="subject"
+                            placeholder="{{ 'contactSection.form.subject' | translate }}" required>
                     </div>
                     <div class="form-group mt-3">
-                        <textarea class="form-control" name="message" rows="5" placeholder="Mensaje"
-                            required></textarea>
+                        <textarea class="form-control" name="message" rows="5"
+                            placeholder="{{ 'contactSection.form.message' | translate }}" required></textarea>
                     </div>
                     <div class="my-3">
-                        <div class="loading">Cargando</div>
+                        <div class="loading">{{ 'contactSection.form.loading' | translate }}</div>
                         <div class="error-message"></div>
-                        <div class="sent-message">Su mensaje hay sido enviado ¡Gracias!</div>
+                        <div class="sent-message">{{ 'contactSection.form.success' | translate }}</div>
                     </div>
-                    <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
+                    <div class="text-center"><button type="submit">{{ 'contactSection.form.submit' | translate
+                            }}</button></div>
                 </form>
-
             </div>
-
         </div>
-
     </div>
 </section><!-- End Contact Section -->
 

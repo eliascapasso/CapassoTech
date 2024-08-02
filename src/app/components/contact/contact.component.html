@@ -1,13 +1,11 @@
 <app-top-bar></app-top-bar>
 
 <!-- ======= Contact Section ======= -->
-<section id="contact" class="contact">
+<section id="contact" class="contact section-bg">
     <div class="container">
-
         <div class="section-title" style="padding-top: 20px;">
-            <h1>Contacto</h1>
+            <h1>{{ 'contactSection.title' | translate }}</h1>
         </div>
-
         <div>
             <iframe style="border:0; width: 100%; height: 270px;"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.6704691456773!2d-60.205348!3d-32.1796496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6a025aee5a0e5%3A0x2e853d681050306a!2sDomingo+French+94%2C+Gral.+Ram%C3%ADrez%2C+Entre+R%C3%ADos!5e0!3m2!1ses!2sar!4v1684411228765!5m2!1ses!2sar"
@@ -15,64 +13,55 @@
         </div>
 
         <div class="row mt-5">
-
             <div class="col-lg-4">
                 <div class="info">
                     <div class="address">
                         <i class="bi bi-geo-alt"></i>
-                        <h4>Ubicación:</h4>
+                        <h4>{{ 'contactSection.location' | translate }}</h4>
                         <p>General Ramirez, Entre Ríos, Argentina</p>
                     </div>
-
                     <div class="email">
                         <i class="bi bi-envelope"></i>
                         <h4>Email:</h4>
-                        <p>contacto@capasso.tech</p>
+                        <p>{{ 'contactSection.email' | translate }}</p>
                     </div>
-
                     <div class="phone">
                         <i class="bi bi-phone"></i>
                         <h4>Teléfono:</h4>
-                        <p>+54 3435 332 132</p>
+                        <p>{{ 'contactSection.phone' | translate }}</p>
                     </div>
-
                 </div>
-
             </div>
-
             <div class="col-lg-8 mt-5 mt-lg-0">
-
                 <form action="https://formspree.io/f/xyyravgo" method="post" role="form" class="php-email-form">
                     <div class="row">
                         <div class="col-md-6 form-group">
                             <input type="text" name="name" class="form-control" id="name"
-                                placeholder="Su nombre completo" required>
+                                placeholder="{{ 'contactSection.form.name' | translate }}" required>
                         </div>
                         <div class="col-md-6 form-group mt-3 mt-md-0">
                             <input type="email" class="form-control" name="email" id="email"
-                                placeholder="Su correo electrónico" required>
+                                placeholder="{{ 'contactSection.form.email' | translate }}" required>
                         </div>
                     </div>
                     <div class="form-group mt-3">
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto"
-                            required>
+                        <input type="text" class="form-control" name="subject" id="subject"
+                            placeholder="{{ 'contactSection.form.subject' | translate }}" required>
                     </div>
                     <div class="form-group mt-3">
-                        <textarea class="form-control" name="message" rows="5" placeholder="Mensaje"
-                            required></textarea>
+                        <textarea class="form-control" name="message" rows="5"
+                            placeholder="{{ 'contactSection.form.message' | translate }}" required></textarea>
                     </div>
                     <div class="my-3">
-                        <div class="loading">Cargando</div>
+                        <div class="loading">{{ 'contactSection.form.loading' | translate }}</div>
                         <div class="error-message"></div>
-                        <div class="sent-message">Su mensaje hay sido enviado ¡Gracias!</div>
+                        <div class="sent-message">{{ 'contactSection.form.success' | translate }}</div>
                     </div>
-                    <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
+                    <div class="text-center"><button type="submit">{{ 'contactSection.form.submit' | translate
+                            }}</button></div>
                 </form>
-
             </div>
-
         </div>
-
     </div>
 </section><!-- End Contact Section -->
 
