@@ -8,16 +8,20 @@
         "title": "Services",
         "services": [
             {
-                "title": "Web Pages",
-                "description": "Discover how we can help you have an effective and professional online presence."
+                "title": "Staff Augmentation & Outsourcing",
+                "description": "Work with us and scale your team rapidly by letting our professionals free up your internal resources whether with individual or fully managed teams."
             },
             {
-                "title": "Mobile Applications",
-                "description": "We develop the perfect app for your business, with efficient solutions tailored to your business and technological needs."
+                "title": "Artificial Intelligence Project Development",
+                "description": "By leaning on Artificial Intelligence we can analyze, plan, design, execute, deploy & maintain AI powered solutions."
             },
             {
-                "title": "Custom Solutions",
-                "description": "Looking to optimize processes in your business? Want to increase its efficiency? We offer custom digital solutions to meet your goals."
+                "title": "Web Apps Development",
+                "description": "A responsive web app, an e-commerce website or a marketing site, our solutions deliver a consistent experience across all the platforms."
+            },
+            {
+                "title": "Mobile Apps Development",
+                "description": "We plan, design and build software applications according to your requirements for all devices."
             }
         ]
     },

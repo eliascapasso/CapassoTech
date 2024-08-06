@@ -24,25 +24,34 @@
         </div>
 
         <div class="row">
-            <a class="col-lg-4 col-md-6" href="/web-pages">
+            <div class="col-lg-4 col-md-6" data-wow-delay="0.1s">
                 <div class="icon-box">
-                    <div class="icon"><i class="bi bi-browser-chrome" style="color: #ff689b;"></i></div>
-                    <h2 class="title">{{ 'servicesSection.services.0.title' | translate }}</h2>
+                    <div class="icon"><i class="bi bi-person-fill-up" style="color: green;"></i></div>
+                    <h2 class="title"><a href="">{{ 'servicesSection.services.0.title' | translate }}</a></h2>
                     <p class="description">{{ 'servicesSection.services.0.description' | translate }}</p>
-                </div>
-            </a>
-            <div class="col-lg-4 col-md-6">
-                <div class="icon-box">
-                    <div class="icon"><i class="bi bi-phone" style="color: #e9bf06;"></i></div>
-                    <h2 class="title"><a href="">{{ 'servicesSection.services.1.title' | translate }}</a></h2>
-                    <p class="description">{{ 'servicesSection.services.1.description' | translate }}</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6" data-wow-delay="0.1s">
                 <div class="icon-box">
-                    <div class="icon"><i class="bi bi-rulers" style="color: #3fcdc7;"></i></div>
-                    <h2 class="title"><a href="">{{ 'servicesSection.services.2.title' | translate }}</a></h2>
+                    <div class="icon"><i class="bi bi-robot" style="color: blue;"></i></div>
+                    <h2 class="title"><a href="">{{ 'servicesSection.services.1.title' | translate }}</a></h2>
+                    <p class="description">{{ 'servicesSection.services.1.description' | translate }}</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-wow-delay="0.1s" (click)="goToPage('/web-pages')">
+                <div class="icon-box">
+                    <div class="icon"><i class="bi bi-laptop" style="color: orange;"></i></div>
+                    <h2 class="title"><a href="/web-pages">{{ 'servicesSection.services.2.title' | translate }}</a></h2>
                     <p class="description">{{ 'servicesSection.services.2.description' | translate }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 center" data-wow-delay="0.1s">
+                <div class="icon-box">
+                    <div class="icon"><i class="bi bi-phone" style="color: aqua;"></i></div>
+                    <h2 class="title"><a href="">{{ 'servicesSection.services.3.title' | translate }}</a></h2>
+                    <p class="description">{{ 'servicesSection.services.3.description' | translate }}</p>
                 </div>
             </div>
         </div>

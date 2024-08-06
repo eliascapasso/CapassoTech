@@ -8,16 +8,20 @@
         "title": "Servicios",
         "services": [
             {
-                "title": "Páginas Web",
-                "description": "Descubre cómo podemos ayudarte a tener una presencia en línea efectiva y profesional."
+                "title": "Aumento del personal de TI",
+                "description": "Trabaje con nosotros y amplíe su equipo rápidamente permitiendo que nuestros profesionales liberen sus recursos internos, ya sea con equipos individuales o completamente administrados."
             },
             {
-                "title": "Aplicaciones Móviles",
-                "description": "Desarrollamos la app perfecta para tu negocio, con soluciones eficientes y adaptadas a tus necesidades empresariales y tecnológicas."
+                "title": "Desarrollo de proyectos con Inteligencia artificial",
+                "description": "Al apoyarnos en la Inteligencia Artificial podemos analizar, planificar, diseñar, ejecutar, implementar y mantener soluciones impulsadas por IA."
             },
             {
-                "title": "Soluciones a tu medida",
-                "description": "¿Buscas optimizar procesos en tu negocio? ¿Quieres aumentar su eficiencia? Nosotros te ofrecemos soluciones digitales a medida para cumplir con tus objetivos."
+                "title": "Desarrollo de aplicaciones web",
+                "description": "Una aplicación web adaptable, un sitio web de comercio electrónico o un sitio de marketing: nuestras soluciones brindan una experiencia consistente en todas las plataformas."
+            },
+            {
+                "title": "Desarrollo de aplicaciones móviles",
+                "description": "Planificamos, diseñamos y construimos aplicaciones de software según sus requisitos para todos los dispositivos."
             }
         ]
     },
