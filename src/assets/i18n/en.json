@@ -2,26 +2,18 @@
     "hero": {
         "title": "Get tailored software solutions",
         "subtitle": "At Capasso Tech, we develop custom software solutions for entrepreneurs and companies. We create websites, virtual stores, mobile applications, and custom software tailored to your specific needs. Contact us today to discover how we can boost your business.",
-        "button": "Get started now"
+        "button": "Request a quote"
     },
     "servicesSection": {
         "title": "Services",
         "services": [
             {
-                "title": "Staff Augmentation & Outsourcing",
-                "description": "Work with us and scale your team rapidly by letting our professionals free up your internal resources whether with individual or fully managed teams."
+                "title": "Custom Software Development Tailored Solutions for Your Business Needs",
+                "description": "We specialize in developing custom software solutions designed to meet the specific challenges of your business. Whether you're looking to automate processes, improve efficiency, or build innovative digital tools, our expert team delivers high-quality software that scales with your business."
             },
             {
-                "title": "Artificial Intelligence Project Development",
-                "description": "By leaning on Artificial Intelligence we can analyze, plan, design, execute, deploy & maintain AI powered solutions."
-            },
-            {
-                "title": "Web Apps Development",
-                "description": "A responsive web app, an e-commerce website or a marketing site, our solutions deliver a consistent experience across all the platforms."
-            },
-            {
-                "title": "Mobile Apps Development",
-                "description": "We plan, design and build software applications according to your requirements for all devices."
+                "title": "Software Maintenance and Support Keep Your Software Running Smoothly",
+                "description": "Ensure your software remains up-to-date, secure, and fully functional with our comprehensive maintenance and support services. From troubleshooting and updates to system enhancements, we help you prevent issues before they arise, allowing your business to operate without interruption."
             }
         ]
     },
@@ -59,7 +51,7 @@
     },
     "contactSection": {
         "title": "Contact",
-        "location": "General Ramirez, Entre Ríos, Argentina",
+        "location": "Where we are",
         "email": "contacto@capasso.tech",
         "phone": "+54 3435 332 132",
         "form": {
@@ -83,7 +75,7 @@
             "altText": "Capasso Tech"
         },
         "address": {
-            "line1": "General Ramirez, Entre Ríos",
+            "line1": "Paraná, Entre Ríos",
             "line2": "Argentina"
         },
         "phoneLabel": "Phone:",
@@ -93,16 +85,10 @@
         "usefulLinks": {
             "title": "Useful Links",
             "home": "Home",
-            "services": "Services",
             "portfolio": "Portfolio",
             "contact": "Contact"
         },
-        "ourServices": {
-            "title": "Our Services",
-            "webPages": "Web Pages",
-            "mobileApps": "Mobile Apps",
-            "customSoftware": "Custom Software"
-        },
+        
         "socialMedia": {
             "title": "Social Media"
         },
@@ -122,19 +108,6 @@
         },
         "nav": {
             "home": "Home",
-            "services": {
-                "title": "Services",
-                "webPages": {
-                    "title": "Web Pages",
-                    "landingPage": "Landing Page",
-                    "growth": "Growth",
-                    "professional": "Professional",
-                    "customized": "Customized",
-                    "examples": "Examples"
-                },
-                "mobileApps": "Mobile Apps",
-                "customSoftware": "Custom Software"
-            },
             "portfolio": "Portfolio",
             "contact": "Contact"
         }

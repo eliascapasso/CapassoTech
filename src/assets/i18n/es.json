@@ -2,26 +2,18 @@
     "hero": {
         "title": "Obtenga soluciones de software a SU MEDIDA",
         "subtitle": "En Capasso Tech, desarrollamos soluciones de software a medida para emprendedores y empresas. Creamos sitios web, tiendas virtuales, aplicaciones móviles y software personalizado adaptado a tus necesidades específicas. Contáctanos hoy para descubrir cómo podemos impulsar tu negocio.",
-        "button": "Empieze ahora"
+        "button": "Solicitar presupuesto"
     },
     "servicesSection": {
         "title": "Servicios",
         "services": [
             {
-                "title": "Aumento del personal de TI",
-                "description": "Trabaje con nosotros y amplíe su equipo rápidamente permitiendo que nuestros profesionales liberen sus recursos internos, ya sea con equipos individuales o completamente administrados."
+                "title": "Desarrollo de Software a Medida",
+                "description": "Soluciones personalizadas para las necesidades de su empresa. Nos especializamos en el desarrollo de soluciones de software a medida, diseñadas para resolver los retos específicos de su empresa. Ya sea que busque automatizar procesos, mejorar la eficiencia o crear herramientas digitales innovadoras, nuestro equipo de expertos le entrega software de alta calidad que crece junto a su negocio."
             },
             {
-                "title": "Desarrollo de proyectos con Inteligencia artificial",
-                "description": "Al apoyarnos en la Inteligencia Artificial podemos analizar, planificar, diseñar, ejecutar, implementar y mantener soluciones impulsadas por IA."
-            },
-            {
-                "title": "Desarrollo de aplicaciones web",
-                "description": "Una aplicación web adaptable, un sitio web de comercio electrónico o un sitio de marketing: nuestras soluciones brindan una experiencia consistente en todas las plataformas."
-            },
-            {
-                "title": "Desarrollo de aplicaciones móviles",
-                "description": "Planificamos, diseñamos y construimos aplicaciones de software según sus requisitos para todos los dispositivos."
+                "title": "Mantenimiento y Soporte de Software",
+                "description": "Mantenga su software funcionando sin problemas. Asegure que su software esté siempre actualizado, seguro y funcionando correctamente con nuestros servicios completos de mantenimiento y soporte. Desde la resolución de problemas y actualizaciones hasta mejoras del sistema, le ayudamos a prevenir inconvenientes, permitiendo que su empresa opere sin interrupciones."
             }
         ]
     },
@@ -59,7 +51,7 @@
     },
     "contactSection": {
         "title": "Contacto",
-        "location": "General Ramirez, Entre Ríos, Argentina",
+        "location": "Dónde estamos",
         "email": "contacto@capasso.tech",
         "phone": "+54 3435 332 132",
         "form": {
@@ -83,7 +75,7 @@
             "altText": "Capasso Tech"
         },
         "address": {
-            "line1": "General Ramirez, Entre Ríos",
+            "line1": "Paraná, Entre Ríos",
             "line2": "Argentina"
         },
         "phoneLabel": "Teléfono:",
@@ -93,15 +85,8 @@
         "usefulLinks": {
             "title": "Enlaces útiles",
             "home": "Inicio",
-            "services": "Servicios",
             "portfolio": "Portfolio",
             "contact": "Contacto"
-        },
-        "ourServices": {
-            "title": "Nuestros servicios",
-            "webPages": "Páginas web",
-            "mobileApps": "Aplicaciones Móviles",
-            "customSoftware": "Software a medida"
         },
         "socialMedia": {
             "title": "Redes sociales"
@@ -122,19 +107,6 @@
         },
         "nav": {
             "home": "Inicio",
-            "services": {
-                "title": "Servicios",
-                "webPages": {
-                    "title": "Páginas Web",
-                    "landingPage": "Landing Page",
-                    "growth": "Crecimiento",
-                    "professional": "Profesional",
-                    "customized": "Personalizado",
-                    "examples": "Ejemplos"
-                },
-                "mobileApps": "Aplicaciones Móviles",
-                "customSoftware": "Software a medida"
-            },
             "portfolio": "Portfolio",
             "contact": "Contacto"
         }

@@ -7,7 +7,7 @@
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
                 <h1>{{ 'hero.title' | translate }}</h1>
                 <h2>{{ 'hero.subtitle' | translate }}</h2>
-                <div><a href="#contact" class="btn-get-started scrollto">{{ 'hero.button' | translate }}</a></div>
+                <div><a href="https://wa.link/4580b5" target="_blank" class="btn-get-started scrollto">{{ 'hero.button' | translate }}</a></div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img">
                 <img src="assets/img/At the office-amico.png" class="img-fluid" alt="">
@@ -23,40 +23,28 @@
             <h1>{{ 'servicesSection.title' | translate }}</h1>
         </div>
 
-        <div class="row">
-            <div class="col-lg-4 col-md-6" data-wow-delay="0.1s">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 mb-4" data-wow-delay="0.1s">
                 <div class="icon-box">
                     <div class="icon"><i class="bi bi-person-fill-up" style="color: green;"></i></div>
                     <h2 class="title"><a href="">{{ 'servicesSection.services.0.title' | translate }}</a></h2>
                     <p class="description">{{ 'servicesSection.services.0.description' | translate }}</p>
+                    <div><a href="https://wa.link/4580b5" target="_blank"  class="btn-get-started scrollto">{{ 'hero.button' | translate }}</a></div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6" data-wow-delay="0.1s">
+            <div class="col-lg-4 col-md-6 mb-4" data-wow-delay="0.1s">
                 <div class="icon-box">
-                    <div class="icon"><i class="bi bi-robot" style="color: blue;"></i></div>
+                    <div class="icon"><i class="bi bi-laptop" style="color: rgb(91, 215, 234);"></i></div>
                     <h2 class="title"><a href="">{{ 'servicesSection.services.1.title' | translate }}</a></h2>
                     <p class="description">{{ 'servicesSection.services.1.description' | translate }}</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6" data-wow-delay="0.1s" (click)="goToPage('/web-pages')">
-                <div class="icon-box">
-                    <div class="icon"><i class="bi bi-laptop" style="color: orange;"></i></div>
-                    <h2 class="title"><a href="/web-pages">{{ 'servicesSection.services.2.title' | translate }}</a></h2>
-                    <p class="description">{{ 'servicesSection.services.2.description' | translate }}</p>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 center" data-wow-delay="0.1s">
-                <div class="icon-box">
-                    <div class="icon"><i class="bi bi-phone" style="color: aqua;"></i></div>
-                    <h2 class="title"><a href="">{{ 'servicesSection.services.3.title' | translate }}</a></h2>
-                    <p class="description">{{ 'servicesSection.services.3.description' | translate }}</p>
+                    <div><a href="https://wa.link/4580b5" target="_blank"  class="btn-get-started scrollto">{{ 'hero.button' | translate }}</a></div>
                 </div>
             </div>
         </div>
     </div>
 </section><!-- End Services Section -->
+
+
 
 <!-- ======= Counts Section ======= -->
 <section id="counts" class="counts">
@@ -136,8 +124,6 @@
                             <a href="https://www.youtube.com/watch?v=3jOJsFTJ-kU" target="_blank"
                                 data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ver video"><i
                                     class="bx bx-video"></i></a>
-                            <a href="https://aberturas9dejulio.mitiendanube.com/" title="Visitar sitio web"
-                                target="_blank"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
                 </div>
@@ -176,7 +162,7 @@
 </section><!-- End Portfolio Section -->
 
 <!-- ======= Gallery Section ======= -->
-<section id="gallery" class="gallery">
+<!-- <section id="gallery" class="gallery">
     <div class="container">
         <div class="section-title">
             <h1>{{ 'gallerySection.title' | translate }}</h1>
@@ -198,21 +184,22 @@
             </div>
         </div>
     </div>
-</section><!-- End Gallery Section -->
+</section> -->
+<!-- End Gallery Section -->
 
-<!-- ======= Contact Section ======= -->
 <section id="contact" class="contact">
     <div class="container">
         <div class="section-title">
             <h1>{{ 'contactSection.title' | translate }}</h1>
         </div>
         <div class="row">
-            <div class="col-lg-4">
+            <!-- Contact Info Column (Left) -->
+            <div class="col-lg-5">
                 <div class="info">
                     <div class="address">
                         <i class="bi bi-geo-alt"></i>
                         <h4>{{ 'contactSection.location' | translate }}</h4>
-                        <p>General Ramirez, Entre Ríos, Argentina</p>
+                        <p>Paraná, Entre Ríos, Argentina</p>
                     </div>
                     <div class="email">
                         <i class="bi bi-envelope"></i>
@@ -226,7 +213,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8 mt-5 mt-lg-0">
+            
+            <!-- Contact Form Column (Right) -->
+            <div class="col-lg-7 mt-5 mt-lg-0">
                 <form action="forms/contact.php" method="post" class="php-email-form">
                     <div class="row">
                         <div class="col-md-6 form-group">
@@ -251,12 +240,14 @@
                         <div class="error-message"></div>
                         <div class="sent-message">{{ 'contactSection.form.success' | translate }}</div>
                     </div>
-                    <div class="text-center"><button type="submit">{{ 'contactSection.form.submit' | translate
-                            }}</button></div>
+                    <div class="text-center"><button type="submit">{{ 'contactSection.form.submit' | translate }}</button></div>
                 </form>
             </div>
         </div>
     </div>
-</section><!-- End Contact Section -->
+</section>
+
+
+<!-- End Contact Section -->
 
 <app-footer></app-footer>

@@ -365,7 +365,8 @@ h6 {
 }
 
 .btn-get-started:hover {
-  background: #76c7ed;
+  background:#249bd2;
+  color:#fff
 }
 
 @media (max-width: 991px) {
@@ -670,11 +671,11 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  padding: 30px;
+  padding: 40px;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  margin: 0 10px 40px 10px;
+  margin: 15px; 
   background: #fff;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
@@ -686,21 +687,21 @@ section {
 
 .services .icon {
   position: absolute;
-  left: -20px;
-  top: calc(50% - 30px);
+  left: -30px; 
+  top: calc(50% - 32px);
 }
 
 .services .icon i {
-  font-size: 64px;
+  font-size: 80px; 
   line-height: 1;
   transition: 0.5s;
 }
 
 .services .title {
-  margin-left: 40px;
+  margin-left: 50px; 
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 20px; 
 }
 
 .services .title a {
@@ -712,10 +713,31 @@ section {
 }
 
 .services .description {
-  font-size: 14px;
-  margin-left: 40px;
+  font-size: 16px; 
+  margin-left: 50px;
   line-height: 24px;
   margin-bottom: 0;
+}
+
+
+.row.justify-content-center {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+
+
+.col-lg-4 {
+  flex: 0 0 auto; 
+  max-width: 600px; 
+  width: 100%; 
+}
+
+
+@media (max-width: 768px) {
+  .col-md-6 {
+    max-width: 100%; 
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1208,7 +1230,6 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
 }
 
 .contact .php-email-form .form-group {
@@ -1222,10 +1243,6 @@ section {
   text-align: left;
   padding: 15px;
   font-weight: 600;
-}
-
-.contact .php-email-form .error-message br+br {
-  margin-top: 25px;
 }
 
 .contact .php-email-form .sent-message {
@@ -1258,6 +1275,7 @@ section {
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
+  width: 100%;
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -1284,6 +1302,7 @@ section {
 .contact .php-email-form button[type=submit]:hover {
   background: #1da2e0;
 }
+
 
 @keyframes animate-loading {
   0% {
