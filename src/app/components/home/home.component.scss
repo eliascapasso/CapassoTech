@@ -1,0 +1,114 @@
+/* Timeline Container */
+.timeline {
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* card-timeline container */
+.card-timeline {
+  position: relative;
+}
+
+/* setting padding based on even or odd */
+.card-timeline:nth-child(odd) {
+  padding: 30px 0 30px 30px;
+}
+
+.card-timeline:nth-child(even) {
+  padding: 30px 30px 30px 0;
+}
+
+/* Global ::before */
+.card-timeline::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  border: solid #49b5e7;
+}
+
+/* Setting the border of top, bottom, left */
+.card-timeline:nth-child(odd)::before {
+  left: 0px;
+  top: -4.5px;
+  bottom: -1px;
+  border-width: 5px 0 5px 5px;
+  border-radius: 50px 0 0 50px;
+}
+
+/* Setting the border of top, bottom, right */
+.card-timeline:nth-child(even)::before {
+  right: 0;
+  top: -4.5px;
+  bottom: 0;
+  border-width: 5px 5px 5px 0;
+  border-radius: 0 50px 50px 0;
+}
+
+/* Removing the border if it is the first card-timeline */
+.card-timeline:first-child::before {
+  border-top: 0;
+}
+
+/* Removing the border if it is the last card-timeline  and it's odd */
+.card-timeline:last-child:nth-child(odd)::before {
+  border-bottom: 0;
+}
+
+/* Removing the border if it is the last card-timeline  and it's even */
+.card-timeline:last-child:nth-child(even)::before {
+  border-bottom: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* Information about the timeline */
+.info-timeline {
+  display: flex;
+  flex-direction: column;
+  color: gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Title of the card-timeline */
+.title-timeline {
+  color: #49b5e7;
+  position: relative;
+  margin-top: 0 !important;
+}
+
+/* Timeline dot  */
+.title-timeline::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 999px;
+  border: 3px solid #49b5e7;
+}
+
+/* text right if the card-timeline is even  */
+.card-timeline:nth-child(even)>.info-timeline>.title-timeline {
+  text-align: right;
+}
+
+/* setting dot to the left if the card-timeline is odd */
+.card-timeline:nth-child(odd)>.info-timeline>.title-timeline::before {
+  left: -45px;
+}
+
+/* setting dot to the right if the card-timeline is odd */
+.card-timeline:nth-child(even)>.info-timeline>.title-timeline::before {
+  right: -45px;
+}
+
+.timeline-inner .card-timeline {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.timeline-inner .card-timeline.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

@@ -7,7 +7,8 @@
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
                 <h1>{{ 'hero.title' | translate }}</h1>
                 <h2>{{ 'hero.subtitle' | translate }}</h2>
-                <div><a href="https://wa.link/4580b5" target="_blank" class="btn-get-started scrollto">{{ 'hero.button' | translate }}</a></div>
+                <div><a href="https://wa.link/4580b5" target="_blank" class="btn-get-started scrollto">{{ 'hero.button'
+                        | translate }}</a></div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img">
                 <img src="assets/img/At the office-amico.png" class="img-fluid" alt="">
@@ -29,7 +30,8 @@
                     <div class="icon"><i class="bi bi-person-fill-up" style="color: green;"></i></div>
                     <h2 class="title"><a href="">{{ 'servicesSection.services.0.title' | translate }}</a></h2>
                     <p class="description">{{ 'servicesSection.services.0.description' | translate }}</p>
-                    <div><a href="https://wa.link/4580b5" target="_blank"  class="btn-get-started scrollto">{{ 'hero.button' | translate }}</a></div>
+                    <div><a href="https://wa.link/4580b5" target="_blank" class="btn-get-started scrollto">{{
+                            'hero.button' | translate }}</a></div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-4" data-wow-delay="0.1s">
@@ -37,14 +39,13 @@
                     <div class="icon"><i class="bi bi-laptop" style="color: rgb(91, 215, 234);"></i></div>
                     <h2 class="title"><a href="">{{ 'servicesSection.services.1.title' | translate }}</a></h2>
                     <p class="description">{{ 'servicesSection.services.1.description' | translate }}</p>
-                    <div><a href="https://wa.link/4580b5" target="_blank"  class="btn-get-started scrollto">{{ 'hero.button' | translate }}</a></div>
+                    <div><a href="https://wa.link/4580b5" target="_blank" class="btn-get-started scrollto">{{
+                            'hero.button' | translate }}</a></div>
                 </div>
             </div>
         </div>
     </div>
 </section><!-- End Services Section -->
-
-
 
 <!-- ======= Counts Section ======= -->
 <section id="counts" class="counts">
@@ -82,6 +83,75 @@
         </div>
     </div>
 </section><!-- End Clients Section -->
+
+<!-- Start Timeline -->
+<section class="timeline-inner" id="how">
+    <div class="container">
+        <div class="text-center">
+            <h1 class="section-title mt-0">{{ 'timelineSection.title' | translate }}</h1>
+            <p class="section-paragraph mb-0">
+                {{ 'timelineSection.subtitle' | translate }}
+            </p>
+        </div>
+
+        <div class="timeline">
+            <div class="outer">
+                <!-- Timeline Step 1 -->
+                <div class="card-timeline timeline-inner">
+                    <div class="info-timeline">
+                        <h3 class="title-timeline">{{ 'timelineSection.steps.0.title' | translate }}</h3>
+                        <p>{{ 'timelineSection.steps.0.description' | translate }}</p>
+                        <div><a href="https://wa.link/4580b5" target="_blank" class="btn-get-started scrollto">{{ 'timelineSection.buttonContact' | translate }}</a></div>
+                    </div>
+                </div>
+                
+                <!-- Timeline Step 2 -->
+                <div class="card-timeline timeline-inner hidden">
+                    <div class="info-timeline">
+                        <h3 class="title-timeline">{{ 'timelineSection.steps.1.title' | translate }}</h3>
+                        <p>
+                            {{ 'timelineSection.steps.1.description' | translate }}
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline Step 3 -->
+                <div class="card-timeline timeline-inner hidden">
+                    <div class="info-timeline">
+                        <h3 class="title-timeline">{{ 'timelineSection.steps.2.title' | translate }}</h3>
+                        <p>
+                            {{ 'timelineSection.steps.2.description' | translate }}
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline Step 4 -->
+                <div class="card-timeline timeline-inner hidden">
+                    <div class="info-timeline">
+                        <h3 class="title-timeline">{{ 'timelineSection.steps.3.title' | translate }}</h3>
+                        <p>
+                            {{ 'timelineSection.steps.3.description' | translate }}
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline Step 5 -->
+                <div class="card-timeline timeline-inner hidden">
+                    <div class="info-timeline">
+                        <h3 class="title-timeline">{{ 'timelineSection.steps.4.title' | translate }}</h3>
+                        <p>
+                            {{ 'timelineSection.steps.4.description' | translate }}
+                        </p>
+
+                        <div><a href="https://wa.link/4580b5" target="_blank" class="btn-get-started scrollto">{{
+                                'timelineSection.buttonContact' | translate }}</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Timeline -->
 
 <!-- ======= Portfolio Section ======= -->
 <section id="portfolio" class="portfolio">
@@ -213,7 +283,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <!-- Contact Form Column (Right) -->
             <div class="col-lg-7 mt-5 mt-lg-0">
                 <form action="forms/contact.php" method="post" class="php-email-form">
@@ -240,7 +310,8 @@
                         <div class="error-message"></div>
                         <div class="sent-message">{{ 'contactSection.form.success' | translate }}</div>
                     </div>
-                    <div class="text-center"><button type="submit">{{ 'contactSection.form.submit' | translate }}</button></div>
+                    <div class="text-center"><button type="submit">{{ 'contactSection.form.submit' | translate
+                            }}</button></div>
                 </form>
             </div>
         </div>
@@ -251,3 +322,5 @@
 <!-- End Contact Section -->
 
 <app-footer></app-footer>
+
+<script src="../../../assets/js/main.js"></script>

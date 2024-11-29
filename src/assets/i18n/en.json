@@ -17,6 +17,33 @@
             }
         ]
     },
+    "timelineSection": {
+        "title": "Initial Process for Developing Your Project",
+        "subtitle": "Starting a project with CapassoTech is simple and clear. We follow a structured and efficient process to ensure we understand your needs and deliver tailored solutions. Each step is designed to facilitate the beginning of the project, guaranteeing trust, transparency, and results aligned with your objectives.",
+        "buttonContact": "Contact Now",
+        "steps": [
+            {
+                "title": "1. Scheduling a Meeting",
+                "description": "We get in touch to schedule an initial meeting where we can get to know each other and discuss the project's goals and expectations."
+            },
+            {
+                "title": "2. Understanding Your Business Needs",
+                "description": "During the meeting, you share in detail the specific needs of your business, the current context, and the challenges you face."
+            },
+            {
+                "title": "3. Situation Analysis",
+                "description": "We conduct an in-depth analysis of the presented problem, identifying opportunities and defining a strategic approach to effectively address your requirements."
+            },
+            {
+                "title": "4. Preparing a Detailed Proposal",
+                "description": "We create a transparent and detailed proposal that outlines the tasks to be performed, estimated timelines, and associated costs, giving you full clarity on every aspect of the project."
+            },
+            {
+                "title": "5. Project Kick-Off",
+                "description": "Once the timelines and proposal are approved, we start working on developing the solution, keeping you informed of progress at every stage."
+            }
+        ]
+    },
     "countsSection": {
         "title": "Who trusted us"
     },
@@ -88,7 +115,6 @@
             "portfolio": "Portfolio",
             "contact": "Contact"
         },
-        
         "socialMedia": {
             "title": "Social Media"
         },

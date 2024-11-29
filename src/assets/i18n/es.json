@@ -17,6 +17,33 @@
             }
         ]
     },
+    "timelineSection": {
+        "title": "Proceso inicial para el desarrollo de tu proyecto",
+        "subtitle": "Comenzar un proyecto con CapassoTech es simple y claro. Seguimos un proceso ordenado y eficiente que asegura que comprendamos tus necesidades y ofrezcamos soluciones personalizadas. Cada paso está diseñado para facilitar el inicio del proyecto, garantizando confianza, transparencia y resultados alineados a tus objetivos.",
+        "buttonContact": "Contactar ahora",
+        "steps": [
+            {
+                "title": "1. Coordinación de una Reunión",
+                "description": "Nos ponemos en contacto para coordinar una reunión inicial, donde podamos conocernos y conversar sobre los objetivos y expectativas del proyecto."
+            },
+            {
+                "title": "2. Entendimiento de las Necesidades de tu Negocio",
+                "description": "Durante la reunión, nos contás en detalle cuáles son las necesidades de tu empresa, el contexto actual y los desafíos específicos que enfrentan."
+            },
+            {
+                "title": "3. Análisis de la Situación",
+                "description": "Realizamos un análisis exhaustivo del problema planteado, identificando oportunidades y definiendo un enfoque estratégico para abordar tus requerimientos de manera efectiva."
+            },
+            {
+                "title": "4. Elaboración de un Presupuesto Detallado",
+                "description": "Desarrollamos un presupuesto transparente y desglosado, donde detallamos las tareas a realizar, los tiempos estimados y los costos involucrados, para que tengas claridad en cada aspecto del proyecto."
+            },
+            {
+                "title": "5. Inicio del Proyecto",
+                "description": "Una vez que los tiempos y presupuestos sean aprobados, comenzamos a trabajar en el desarrollo de la solución, manteniéndote informado del progreso en cada etapa."
+            }
+        ]
+    },
     "countsSection": {
         "title": "Quienes confiaron en nosotros"
     },
