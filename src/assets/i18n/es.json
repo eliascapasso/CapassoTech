@@ -113,6 +113,7 @@
             "title": "Enlaces útiles",
             "home": "Inicio",
             "portfolio": "Portfolio",
+            "how": "Como empiezo",
             "contact": "Contacto"
         },
         "socialMedia": {
@@ -135,6 +136,7 @@
         "nav": {
             "home": "Inicio",
             "portfolio": "Portfolio",
+            "how": "Como empiezo",
             "contact": "Contacto"
         }
     },
