@@ -1,7 +1,7 @@
 {
     "hero": {
-        "title": "Obtenga soluciones de software a SU MEDIDA",
-        "subtitle": "En Capasso Tech, desarrollamos soluciones de software a medida para emprendedores y empresas. Creamos sitios web, tiendas virtuales, aplicaciones móviles y software personalizado adaptado a tus necesidades específicas. Contáctanos hoy para descubrir cómo podemos impulsar tu negocio.",
+        "title": "Somos la solución tecnológica a los problemas de su empresa",
+        "subtitle": "Desarrollamos sistemas a medida para automatizar procesos, reducir tareas manuales y agilizar la gestión del negocio. Creamos soluciones que realmente se adaptan a tus necesidades. Contactanos y descubrí cómo podemos ayudarte.",
         "button": "Solicitar presupuesto"
     },
     "servicesSection": {
@@ -9,17 +9,17 @@
         "services": [
             {
                 "title": "Desarrollo de Software a Medida",
-                "description": "Soluciones personalizadas para las necesidades de su empresa. Nos especializamos en el desarrollo de soluciones de software a medida, diseñadas para resolver los retos específicos de su empresa. Ya sea que busque automatizar procesos, mejorar la eficiencia o crear herramientas digitales innovadoras, nuestro equipo de expertos le entrega software de alta calidad que crece junto a su negocio."
+                "description": "Creamos soluciones personalizadas para automatizar procesos, mejorar la eficiencia y optimizar la gestión de tu empresa."
             },
             {
                 "title": "Mantenimiento y Soporte de Software",
-                "description": "Mantenga su software funcionando sin problemas. Asegure que su software esté siempre actualizado, seguro y funcionando correctamente con nuestros servicios completos de mantenimiento y soporte. Desde la resolución de problemas y actualizaciones hasta mejoras del sistema, le ayudamos a prevenir inconvenientes, permitiendo que su empresa opere sin interrupciones."
+                "description": "Nos aseguramos de que todo el software de tu empresa esté siempre actualizado, seguro y funcionando sin interrupciones."
             }
         ]
     },
     "timelineSection": {
-        "title": "Proceso inicial para el desarrollo de tu proyecto",
-        "subtitle": "Comenzar un proyecto con CapassoTech es simple y claro. Seguimos un proceso ordenado y eficiente que asegura que comprendamos tus necesidades y ofrezcamos soluciones personalizadas. Cada paso está diseñado para facilitar el inicio del proyecto, garantizando confianza, transparencia y resultados alineados a tus objetivos.",
+        "title": "Pasos para comenzar su proyecto",
+        "subtitle": "Comenzar un proyecto con nosotros es simple. Seguimos un proceso ordenado que asegura que comprendamos tus necesidades y ofrezcamos la mejor solución.",
         "buttonContact": "Contactar ahora",
         "steps": [
             {
@@ -45,7 +45,7 @@
         ]
     },
     "countsSection": {
-        "title": "Quienes confiaron en nosotros"
+        "title": "Quienes confían en nosotros"
     },
     "portfolioSection": {
         "title": "Portfolio",

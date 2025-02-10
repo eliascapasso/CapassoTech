@@ -1,7 +1,7 @@
 {
     "hero": {
-        "title": "Get tailored software solutions",
-        "subtitle": "At Capasso Tech, we develop custom software solutions for entrepreneurs and companies. We create websites, virtual stores, mobile applications, and custom software tailored to your specific needs. Contact us today to discover how we can boost your business.",
+        "title": "The technology partner your business needs",
+        "subtitle": "We create custom systems to automate processes, eliminate repetitive tasks, and optimize business management. Our solutions are designed to fit your specific needs. Get in touch and let’s find the right solution for you.",
         "button": "Request a quote"
     },
     "servicesSection": {
@@ -9,17 +9,17 @@
         "services": [
             {
                 "title": "Custom Software Development Tailored Solutions for Your Business Needs",
-                "description": "We specialize in developing custom software solutions designed to meet the specific challenges of your business. Whether you're looking to automate processes, improve efficiency, or build innovative digital tools, our expert team delivers high-quality software that scales with your business."
+                "description": "We create tailored solutions to automate processes, improve efficiency, and optimize business management."
             },
             {
                 "title": "Software Maintenance and Support Keep Your Software Running Smoothly",
-                "description": "Ensure your software remains up-to-date, secure, and fully functional with our comprehensive maintenance and support services. From troubleshooting and updates to system enhancements, we help you prevent issues before they arise, allowing your business to operate without interruption."
+                "description": "We ensure that all your company's software is always updated, secure, and running smoothly without interruptions."
             }
         ]
     },
     "timelineSection": {
-        "title": "Initial Process for Developing Your Project",
-        "subtitle": "Starting a project with CapassoTech is simple and clear. We follow a structured and efficient process to ensure we understand your needs and deliver tailored solutions. Each step is designed to facilitate the beginning of the project, guaranteeing trust, transparency, and results aligned with your objectives.",
+        "title": "Steps to Start Your Project",
+        "subtitle": "Starting a project with us is simple. We follow a structured process to fully understand your needs and deliver the best solution.",
         "buttonContact": "Contact Now",
         "steps": [
             {
@@ -45,7 +45,7 @@
         ]
     },
     "countsSection": {
-        "title": "Who trusted us"
+        "title": "Who trust us"
     },
     "portfolioSection": {
         "title": "Portfolio",
