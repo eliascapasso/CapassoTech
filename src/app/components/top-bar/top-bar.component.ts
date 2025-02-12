@@ -8,7 +8,6 @@ import { getLang } from 'src/app/helpers/helper';
   styleUrls: ['./top-bar.component.scss']
 })
 export class TopBarComponent implements OnInit, AfterViewInit {
-
   constructor(private translate: TranslateService) {
     translate.setDefaultLang(getLang(translate.getBrowserLang()!));
     translate.use(getLang(translate.getBrowserLang()));
@@ -51,8 +50,6 @@ export class TopBarComponent implements OnInit, AfterViewInit {
       const navbar: any = select('#navbar');
       if (navbar) {
         navbar.classList.toggle('navbar-mobile');
-        // navbar.classList.toggle('bi-list');
-        // navbar.classList.toggle('bi-x');
       }
     });
 
@@ -63,9 +60,9 @@ export class TopBarComponent implements OnInit, AfterViewInit {
       const navbar: any = select('#navbar');
       if (navbar && navbar.classList.contains('navbar-mobile')) {
         e.preventDefault();
-        const nextElementSibling = navbar.nextElementSibling as HTMLElement;
-        if (nextElementSibling) {
-          nextElementSibling.classList.toggle('dropdown-active');
+        const dropdownMenu = (e.target as HTMLElement).nextElementSibling as HTMLElement;
+        if (dropdownMenu) {
+          dropdownMenu.classList.toggle('dropdown-active');
         }
       }
     }, true);
@@ -77,20 +74,12 @@ export class TopBarComponent implements OnInit, AfterViewInit {
       const target: any = select(this.hash);
       if (target) {
         e.preventDefault();
-
         const navbar: any = select('#navbar');
         if (navbar && navbar.classList.contains('navbar-mobile')) {
           navbar.classList.remove('navbar-mobile');
-          const navbarToggle: any = select('.mobile-nav-toggle');
-          if (navbarToggle) {
-            // navbarToggle.classList.toggle('bi-list');
-            // navbarToggle.classList.toggle('bi-x');
-          }
         }
-
         // Obtener la posición del elemento
         const elementPos: any = target.offsetTop;
-
         // Desplazar al elemento
         window.scrollTo({
           top: elementPos,

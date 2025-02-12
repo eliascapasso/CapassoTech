@@ -137,7 +137,9 @@
             "home": "Inicio",
             "portfolio": "Portfolio",
             "how": "Como empiezo",
-            "contact": "Contacto"
+            "contact": "Contacto",
+            "products": "Productos",
+            "gym": "App para gym o personal trainers"
         }
     },
     "webDevelopmentPlans": {
