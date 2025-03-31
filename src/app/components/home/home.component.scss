@@ -112,3 +112,35 @@
   opacity: 1;
   transform: translateY(0);
 }
+
+//HEADER
+/* Asegura que las imágenes ocupen todo el ancho y altura */
+.carousel-item img {
+  object-fit: cover;
+  /* Altura completa de la pantalla */
+  width: 100%;
+}
+
+/* Mejora el diseño del texto sobre la imagen */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6);
+  /* Fondo semitransparente para mejorar legibilidad */
+  border-radius: 10px;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .carousel-caption {
+      /* Reduce el espaciado en móviles */
+  }
+
+  .carousel-caption h1 {
+      font-size: 2rem;
+      /* Tamaño de fuente más pequeño para móviles */
+  }
+
+  .carousel-caption h2 {
+      font-size: 1.2rem;
+      /* Tamaño de fuente más pequeño para móviles */
+  }
+}

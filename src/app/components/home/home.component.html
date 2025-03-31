@@ -1,21 +1,60 @@
 <app-top-bar></app-top-bar>
 
-<!-- ======= Hero Section ======= -->
-<section id="home" class="d-flex align-items-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                <h1>{{ 'hero.title' | translate }}</h1>
-                <h2>{{ 'hero.subtitle' | translate }}</h2>
-                <div><a href="https://wa.link/4580b5" target="_blank" class="btn-get-started scrollto">{{ 'hero.button'
-                        | translate }}</a></div>
+<!-- ======= Header Section ======= -->
+<section id="home" class="align-items-center">
+    <div id="headerCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Contenido del carrusel -->
+        <div class="carousel-inner">
+            <!-- Slide 1: Contenido actual -->
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                            <h1>{{ 'hero.title' | translate }}</h1>
+                            <h2>{{ 'hero.subtitle' | translate }}</h2>
+                            <div><a href="https://wa.link/4580b5" target="_blank" class="btn-get-started scrollto">{{
+                                    'hero.button'
+                                    | translate }}</a></div>
+                        </div>
+                        <div class="col-lg-6 order-1 order-lg-2 hero-img">
+                            <img src="assets/img/At the office-amico.png" class="img-fluid" alt="Oficina">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6 order-1 order-lg-2 hero-img">
-                <img src="assets/img/At the office-amico.png" class="img-fluid" alt="">
+            <!-- Slide 2: Publicidad de la app de gimnasios -->
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                            <h1>Gestiona tu gimnasio fácilmente</h1>
+                            <h2>Con GymFuze, la administración de alumnos, pagos y rutinas nunca fue tan simple.</h2>
+                            <!-- Contenedor para los botones -->
+                            <div class="d-flex gap-3 mt-3">
+                                <a href="https://gymfuzeapp.web.app/" target="_blank"
+                                    class="btn-get-started scrollto">Más información</a>
+                                <a href="https://gymfuzeadmin.web.app/registro" target="_blank"
+                                    class="btn-get-started scrollto">Prueba gratis 7 días</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order-1 order-lg-2 hero-img">
+                            <img src="assets/img/portada-gym.jpg" class="img-fluid" alt="Gestión de Gimnasios">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <!-- Controles del carrusel -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#headerCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark p-2 rounded-circle" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#headerCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark p-2 rounded-circle" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-</section><!-- End Hero -->
+</section><!-- End Header -->
 
 <!-- ======= Services Section ======= -->
 <section id="services" class="services section-bg">
